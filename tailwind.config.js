@@ -7,12 +7,31 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        gray: "rgba(255, 255, 255, 0.4)",
+        "palegreen": "#71ec6e",
+"lightcoral": "#ff8080",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontSize: {},
   },
+
+  // corePlugins: {
+  //   preflight: false,
+  // },
   plugins: [],
 }
+
+
+// theme: {
+//   extend: {
+    
+//   },
+ 
+// },
+
