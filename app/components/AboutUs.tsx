@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { commanFont, subHeadingFont } from '../layout'
+import { commanFont, subHeadingFont } from '@/app/font'
 import { aboutusdata } from '@/constants'
 const AboutUs = () => {
     return (

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { actionBoxType } from '@/types'
-import { commanFont, subHeadingFont } from '../layout'
+import { commanFont, subHeadingFont } from '@/app/font'
 import {actiiondata} from '@/constants'
 export const ActionCard =({data ,key}:{data:actionBoxType ,key:number})=>{
 return (

@@ -3,7 +3,7 @@ import { footerlinks, mediaDetailData } from '@/constants'
 import React from 'react'
 import Image from 'next/image'
 import { footerLinksType } from '@/types'
-import { commanFont, desscriptFont } from '../layout'
+import { commanFont, desscriptFont } from '@/app/font'
 import FormInput from './FormInput'
 import {useState} from 'react'
 const FooterLinks =({link}:{link:footerLinksType})=>{

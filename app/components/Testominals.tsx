@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { commanFont, desscriptFont, subHeadingFont } from '../layout'
+import { commanFont, desscriptFont, subHeadingFont } from '@/app/font'
 import { testomonialdata } from '@/constants'
 import { testomonialType } from '@/types';
 import { useState } from 'react';

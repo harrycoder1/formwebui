@@ -1,5 +1,5 @@
 import React from 'react'
-import { headingFont , commanFont } from '../layout'
+import { headingFont , commanFont } from '@/app/font'
 import Image from 'next/image'
 
 const Hero = () => {
